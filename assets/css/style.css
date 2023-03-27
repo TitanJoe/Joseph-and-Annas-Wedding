@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+.header {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+}
+
+.header-welcome {
+    font-size: 35px;
+    background-color: #556B2F;
+    padding: 5px 0 10px 0;
+}
+
+.header-navbar {
+    font-size: 25px;
+    background-color: #55822F;
+    padding: 5px 0 5px 0;
+}
+
+.header-text {
+    padding:  0 5px 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 16px;
+    }
+
+    .header-welcome {
+        padding-bottom: 5px;
+    }
+}
