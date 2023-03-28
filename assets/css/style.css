@@ -6,6 +6,9 @@
     text-align: center;
 }
 
+body {
+    background-color: antiquewhite;
+}
 a {
     color: antiquewhite;
     text-decoration: none;
@@ -17,24 +20,45 @@ a:active {
 
 .header {
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Allura', cursive;
     color: antiquewhite;
 }
 
 .header-welcome {
-    font-size: 35px;
-    background-color: #556B2F;
+    font-size: 75px;
     padding: 5px 0 10px 0;
+    background-color: #4e5f43;
 }
 
 .header-navbar {
-    font-size: 25px;
-    background-color: #55822F;
+    font-size: 35px;
     padding: 5px 0 5px 0;
+    background-color: #4e5f43;
 }
 
 .header-text {
     padding:  0 5px 0 5px;
+}
+
+#homepage-image {
+    padding-top: 50px;
+    width: 20%;
+}
+
+#text-under-homepage-image {
+    padding-top: 25px;
+    color: #1b3b07;
+    font-family: 'Allura', cursive;
+    font-size: 50px;
+}
+
+#rsvp-form {
+    margin-top: 100px;
+    padding: 100px;
+    display: inline-block;
+    border-color: #4e5f43;
+    border: 5px solid #4e5f43;
+    border-radius: 40px;
 }
 
 @media only screen and (max-width: 600px) {
