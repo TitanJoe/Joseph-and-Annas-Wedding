@@ -27,13 +27,13 @@ a:active {
 .header-welcome {
     font-size: 75px;
     padding: 5px 0 10px 0;
-    background-color: #4e5f43;
+    background-color: #616655;
 }
 
 .header-navbar {
     font-size: 35px;
     padding: 5px 0 5px 0;
-    background-color: #4e5f43;
+    background-color: #616655;
 }
 
 .header-text {
@@ -47,17 +47,17 @@ a:active {
 
 #text-under-homepage-image {
     padding-top: 25px;
-    color: #1b3b07;
+    color: #616655;
     font-family: 'Allura', cursive;
     font-size: 50px;
 }
 
 #rsvp-form-div {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 100px;
     display: inline-block;
-    border-color: #4e5f43;
-    border: 5px solid #4e5f43;
+    border: 5px solid #616655;
     border-radius: 40px;
 }
 
