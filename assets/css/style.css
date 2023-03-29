@@ -52,7 +52,7 @@ a:active {
     font-size: 50px;
 }
 
-#rsvp-form {
+#rsvp-form-div {
     margin-top: 100px;
     padding: 100px;
     display: inline-block;
@@ -68,5 +68,34 @@ a:active {
 
     .header-welcome {
         padding-bottom: 5px;
+    }
+
+    #text-under-homepage-image {
+        font-size: 100%;
+    }
+
+    #homepage-image {
+        padding-top: 50px;
+        width: 60%;
+    }
+
+    #rsvp-form-div {
+        width: 	80%;
+        padding: 0;
+    }
+
+    #rsvp-form-div input {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    #rsvp-form-div label {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    #rsvp-form-div p {
+        margin-bottom: 10px;
+        margin-top: 20px;
     }
 }
