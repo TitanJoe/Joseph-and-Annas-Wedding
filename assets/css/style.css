@@ -61,6 +61,19 @@ a:active {
     border-radius: 40px;
 }
 
+#rsvp-form {
+    text-align: left;
+}
+
+#rsvp-form p {
+    text-align: left;
+}
+
+#rsvpdiv a {
+    color: #616655;
+    font-size: larger;
+}
+
 @media only screen and (max-width: 600px) {
     .header {
         font-size: 16px;
@@ -77,25 +90,5 @@ a:active {
     #homepage-image {
         padding-top: 50px;
         width: 60%;
-    }
-
-    #rsvp-form-div {
-        width: 	80%;
-        padding: 0;
-    }
-
-    #rsvp-form-div input {
-        width: 60%;
-        margin-bottom: 10px;
-    }
-
-    #rsvp-form-div label {
-        width: 80%;
-        margin-bottom: 15px;
-    }
-
-    #rsvp-form-div p {
-        margin-bottom: 10px;
-        margin-top: 20px;
     }
 }
