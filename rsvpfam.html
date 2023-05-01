@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>J&As Wedding Website</title>
+  </head>
+  <body>
+    <div class="header header-welcome">
+      <p class="header-text">Welcome to our wedding website</p>
+    </div>
+    <div class="header header-navbar">
+      <p class="header-text">| <a href="index.html">Home</a> | <a href="accomadation.html">Accomadation</a> | <a href="menu.html">Menu</a> | <a href="rsvp.html">RSVP</a> |</p>
+    </div>
+    <div id="rsvp-form-div">
+      <form id="rsvp-form" action="https://formsubmit.co/josephandannawedding2023@gmail.com" method="POST">
+        <!-- First Name: -->
+        <label for="firstname">First Name: </label>
+        <br>
+        <input type="text" id="firstname" name="firstname">
+        <br>
+        <!-- Surname: -->
+        <label for="surname">Surname: </label>
+        <br>
+        <input type="text" id="surname" name="surname">
+        <br>
+        <!-- Email: -->
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <!-- Phone Number: -->
+        <label for="fnumber">Phone Number:</label>
+        <br>
+        <input type="text" id="fnumber" name="fnumber">
+        <br>
+        <!-- Will you attend the wedding?  -->
+        <br>
+        <p>Will you attend the wedding?</p>
+        <input type="radio" id="yes-come" name="will-you-come" value="i-can-attend">
+        <label for="yes-come">I will attend.</label>
+        <br>
+        <input type="radio" id="no-come" name="will-you-come" value="i-cannot-attend">
+        <label for="no-come">I cannot attend.</label>
+        <br>
+        <br>
+        <p><strong>If you cannot attend you can leave a comment if you wish and then press submit</strong></p>
+        <br>
+        <p>Will you be staying at Glencomeragh house or finding accommodation?</p>
+        <input type="radio" id="yes-stay" name="will-you-stay" value="i-will-stay">
+        <label for="yes-stay">I will stay on-site</label>
+        <input type="radio" id="no-stay" name="will-you-stay" value="i-will-not-stay">
+        <label for="no-stay">I will stay off-site</label>
+        <br>
+        <br>
+        <p><strong>If you are not bringing your family you can leave a comment if you wish and then press submit</strong></p>
+        <br>
+        <p>Will you bring your family?</p>
+        <input type="radio" id="yes-fam" name="fam" value="i-will-bring-fam">
+        <label for="yes-fam">I will bring family</label>
+        <input type="radio" id="no-fam" name="wfam" value="i-will-not-bring-fam">
+        <label for="no-fam">I will not bring family</label>
+        <br>
+        <br>
+        <p>Could you name your family members above the age of 14:</p>
+        <textarea name="fam-above-14" id="fam-above-14" cols="30" rows="3"></textarea>
+        <br>
+        <br>
+        <p>Could you name your family members under the age of 14:</p>
+        <textarea name="fam-below-14" id="fam-below-14" cols="30" rows="3"></textarea>
+        <br>
+        <br>
+        <p>Could you list the menu items that the people over 14 would like to order:</p>
+        <p><em>Starting with yourself and in the same order as the above 14 members are:</em></p>
+        <textarea name="fam-orders" id="fam-orders" cols="30" rows="3"></textarea>
+        <br>
+        <br>
+        <p>Any additional comments?</p>
+        <textarea name="additional-comments" id="additional-comments" cols="30" rows="3"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
