@@ -1,57 +1,120 @@
+/* Styles applied to the page */ 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     text-align: center;
+    font-family: 'Allura', cursive;
 }
 
+/* Styles applied to the body */ 
 body {
     background-color: antiquewhite;
 }
+
+/* Styles applied to page headers */ 
+header {
+    font-size: 5rem;
+    font-weight: lighter;
+    color: antiquewhite;
+    background-color: #616655;
+}
+
+/* Styles Applied to the nav */
+nav {
+    padding-top: 20px;
+    background-color: #616655;
+    font-family: 'Allura', cursive;
+    font-size: 2rem;
+}
+
+/* Styles applied to the nav anchors */ 
 a {
     color: antiquewhite;
     text-decoration: none;
 }
 
-a:active {
-    color: blue;
+a:hover {
+    color: white;
 }
 
-.header {
-    width: 100%;
-    font-family: 'Allura', cursive;
+a:active {
+    background-color: #757b67;
+}
+
+/* Styles applied to the nav dividers */
+nav p {
+    display: inline-block;
     color: antiquewhite;
 }
 
-.header-welcome {
-    font-size: 75px;
-    padding: 5px 0 10px 0;
-    background-color: #616655;
-}
-
-.header-navbar {
-    font-size: 35px;
-    padding: 5px 0 5px 0;
-    background-color: #616655;
-}
-
-.header-text {
-    padding:  0 5px 0 5px;
-}
-
-#homepage-image {
-    padding-top: 50px;
-    width: 20%;
-}
-
-#text-under-homepage-image {
-    padding-top: 25px;
+/* Styles applied to the Index.html page */
+#itinerary {
+    width: 50%;
+    font-size: 2rem;
     color: #616655;
-    font-family: 'Allura', cursive;
-    font-size: 50px;
+    padding-bottom: 5rem;
+    margin: auto;
 }
 
+#itinerary-image {
+    padding-top: 50px;
+    width: 40%;
+}
+
+#itinerary-heading {
+    margin-top: 2.5rem;
+    font-size: 4rem;
+}
+
+#itinerary-card {
+    background-color: #616655;
+    color: antiquewhite;
+    border-radius: 25%;
+    padding: 5rem 0 5rem 0;
+}
+
+/* Styles applied to the Accomadation.html page */
+#acc-text {
+    font-size: 1.5rem;
+    width: 50%;
+    margin: auto;
+    color: #616655;
+}
+
+#acc-image {
+    padding-top: 5rem;
+    width: 30%;
+    padding-bottom: 5rem;
+}
+
+/* Styles applied to rsvp.html */
+#rsvp-text {
+    padding-top: 2rem;
+    color: #616655;
+    font-size: 2rem;
+}
+
+#rsvp-text a {
+    color: #616655;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #616655;
+    text-decoration-thickness: 1px;
+}
+
+#rsvp-text a:hover {
+    background-color: #616655;
+    color: antiquewhite;
+}
+
+#rsvp-image {
+    padding-top: 2rem;
+    width: 25%;
+}
+
+/* Styles applied to the rsvp forms */
 #rsvp-form-div {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -68,27 +131,43 @@ a:active {
 #rsvp-form p {
     text-align: left;
 }
-
-#rsvpdiv a {
-    color: #616655;
-    font-size: larger;
-}
-
+/* Styles for mobiles */
 @media only screen and (max-width: 600px) {
-    .header {
-        font-size: 16px;
+
+    /* Styles applied to page headers */ 
+    header {
+        font-size: 2.5rem;
     }
 
-    .header-welcome {
-        padding-bottom: 5px;
+    /* Styles Applied to the nav */
+    nav {
+        font-size: 1.5rem;
     }
 
-    #text-under-homepage-image {
-        font-size: 100%;
+    /* Styles applied to the Index.html page */
+    #itinerary {
+        width: 80%;
     }
 
-    #homepage-image {
+    #itinerary-image {
         padding-top: 50px;
-        width: 60%;
+        width: 100%;
+    }
+
+    #itinerary-heading {
+        font-size: 3rem;
+    }
+
+    #itinerary-card {
+        border-radius: 10%;
+    }
+    /* Styles applied to the Accomadation.html page */
+    #acc-text {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    #acc-image {
+        width: 80%;
     }
 }
