@@ -116,21 +116,15 @@ nav p {
 
 /* Styles applied to the rsvp forms */
 #rsvp-form-div {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 100px;
-    display: inline-block;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 50%;
     border: 5px solid #616655;
-    border-radius: 40px;
+    border-radius: 5%;
+    padding: 1rem;
 }
 
-#rsvp-form {
-    text-align: left;
-}
-
-#rsvp-form p {
-    text-align: left;
-}
 /* Styles for mobiles */
 @media only screen and (max-width: 600px) {
 
@@ -168,6 +162,17 @@ nav p {
     }
 
     #acc-image {
+        width: 80%;
+    }
+
+    /* Styles applied to rsvp.html */
+    #rsvp-text {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* Styles applied to the rsvp forms */
+    #rsvp-form-div {
         width: 80%;
     }
 }
