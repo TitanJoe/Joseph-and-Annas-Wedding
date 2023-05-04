@@ -89,6 +89,18 @@ nav p {
     padding-bottom: 5rem;
 }
 
+/* Styles applied to menu.html */
+#menu-text {
+    font-size: 1.5rem;
+    color: #616655;
+}
+
+.menu-header  {
+    background-color: #616655;
+    color: antiquewhite;
+    border-radius: 35%;
+}
+
 /* Styles applied to rsvp.html */
 #rsvp-text {
     padding-top: 2rem;
