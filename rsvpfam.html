@@ -9,12 +9,18 @@
     <title>J&As Wedding Website</title>
   </head>
   <body>
-    <div class="header header-welcome">
-      <p class="header-text">Welcome to our wedding website</p>
-    </div>
-    <div class="header header-navbar">
-      <p class="header-text">| <a href="index.html">Home</a> | <a href="accomadation.html">Accomadation</a> | <a href="menu.html">Menu</a> | <a href="rsvp.html">RSVP</a> |</p>
-    </div>
+    <header>
+      <p>Welcome to our wedding website</p>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <p> | </p>
+      <a href="accomadation.html">Accomodation</a>
+      <p> | </p>
+      <a href="menu.html">Menu</a>
+      <p> | </p>
+      <a href="rsvp.html">RSVP</a>
+    </nav>
     <div id="rsvp-form-div">
       <form id="rsvp-form" action="https://formsubmit.co/josephandannawedding2023@gmail.com" method="POST">
         <!-- First Name: -->
@@ -49,36 +55,41 @@
         <br>
         <p><strong>If you cannot attend you can leave a comment if you wish and then press submit</strong></p>
         <br>
-        <p>Will you be staying at Glencomeragh house or finding accommodation?</p>
+        <p>Will you be staying at Glencomeragh house or finding accommodation elsewhere?</p>
         <input type="radio" id="yes-stay" name="will-you-stay" value="i-will-stay">
         <label for="yes-stay">I will stay on-site</label>
+        <br>
         <input type="radio" id="no-stay" name="will-you-stay" value="i-will-not-stay">
         <label for="no-stay">I will stay off-site</label>
         <br>
         <br>
-        <p><strong>If you are not bringing your family you can leave a comment if you wish and then press submit</strong></p>
+        <p><strong>If you are not bringing your family you can leave a comment if you wish and then press submit.</strong></p>
         <br>
         <p>Will you bring your family?</p>
         <input type="radio" id="yes-fam" name="fam" value="i-will-bring-fam">
         <label for="yes-fam">I will bring family</label>
+        <br>
         <input type="radio" id="no-fam" name="wfam" value="i-will-not-bring-fam">
         <label for="no-fam">I will not bring family</label>
         <br>
         <br>
-        <p>Could you name your family members above the age of 14:</p>
+        <p>Please name your family members above the age of 14:</p>
+        <br>
         <textarea name="fam-above-14" id="fam-above-14" cols="30" rows="3"></textarea>
         <br>
         <br>
-        <p>Could you name your family members under the age of 14:</p>
+        <p>Please name your family members under the age of 14:</p>
+        <br>
         <textarea name="fam-below-14" id="fam-below-14" cols="30" rows="3"></textarea>
         <br>
         <br>
-        <p>Could you list the menu items that the people over 14 would like to order:</p>
-        <p><em>Starting with yourself and in the same order as the above 14 members are:</em></p>
+        <p>Could you please inform us of the meat choices for all family members over the age of 14.</p>
+        <br>
         <textarea name="fam-orders" id="fam-orders" cols="30" rows="3"></textarea>
         <br>
         <br>
-        <p>Any additional comments?</p>
+        <p>Any additional comments, i.e. dietry requirememts.?</p>
+        <br>
         <textarea name="additional-comments" id="additional-comments" cols="30" rows="3"></textarea>
         <br>
         <br>

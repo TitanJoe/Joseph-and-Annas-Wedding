@@ -9,12 +9,18 @@
     <title>J&As Wedding Website</title>
   </head>
   <body>
-    <div class="header header-welcome">
-      <p class="header-text">Welcome to our wedding website</p>
-    </div>
-    <div class="header header-navbar">
-      <p class="header-text">| <a href="index.html">Home</a> | <a href="accomadation.html">Accomadation</a> | <a href="menu.html">Menu</a> | <a href="rsvp.html">RSVP</a> |</p>
-    </div>
+    <header>
+      <p>Welcome to our wedding website</p>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <p> | </p>
+      <a href="accomadation.html">Accomodation</a>
+      <p> | </p>
+      <a href="menu.html">Menu</a>
+      <p> | </p>
+      <a href="rsvp.html">RSVP</a>
+    </nav>
     <div id="rsvp-form-div">
       <form id="rsvp-form" action="https://formsubmit.co/josephandannawedding2023@gmail.com" method="POST">
         <!-- First Name: -->
@@ -47,20 +53,23 @@
         <label for="no-come">I cannot attend.</label>
         <br>
         <br>
-        <p>If you cannot attend you can leave a comment if you wish and then press submit</p>
+        <p>If you cannot attend you can leave a comment if you wish and then press submit.</p>
         <br>
-        <p>Will you be staying at Glencomeragh house or finding accommodation?</p>
+        <p>Will you be staying at Glencomeragh house or finding accommodation elsewhere?</p>
         <input type="radio" id="yes-stay" name="will-you-stay">
         <label for="yes-stay">I will stay on-site</label>
+        <br>
         <input type="radio" id="no-stay" name="will-you-stay">
         <label for="no-stay">I will stay off-site</label>
         <br>
         <br>
-        <p>What meal from the menu will you have?</p>
+        <p>What meat choice from the menu will you have?</p>
+        <br>
         <input type="text" id="menuchoice" name="menuchoice">
         <br>
         <br>
-        <p>Any additional comments?</p>
+        <p>Any additional comments, i.e. dietry requirements?</p>
+        <br>
         <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
         <br>
         <input type="submit" value="Submit">
